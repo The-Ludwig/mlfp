@@ -1,0 +1,13 @@
+name: mlfp
+channels:
+  - defaults
+dependencies:
+  - python=3.8
+  - theano
+  - scikit-learn
+  - seaborn
+  - matplotlib
+  - numpy
+  - tensorflow
+  - ipython
+  - jupyter

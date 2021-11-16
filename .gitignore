@@ -1,0 +1,6 @@
+papaya_example
+*.pyc
+.vscode/*
+.python-version
+.venv
+.ipynb_checkpoints
