@@ -19,6 +19,7 @@ tensorflow = "^2.7"
 Theano = "^1.0"
 
 [tool.poetry.dev-dependencies]
+nbconvert = {extras = ["webpdf"], version = "^6.3.0"}
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
