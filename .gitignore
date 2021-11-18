@@ -1,4 +1,6 @@
 papaya_example
+pulsar_exercise
+*.pdf
 *.pyc
 .vscode/*
 .python-version
