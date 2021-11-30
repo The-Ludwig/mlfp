@@ -1,6 +1,7 @@
 papaya_example
 pulsar_exercise
 testing
+tutorial_sessions
 *.pdf
 *.pyc
 .vscode/*
