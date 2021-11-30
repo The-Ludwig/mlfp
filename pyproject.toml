@@ -18,6 +18,7 @@ jupyter = "^1.0"
 tensorflow = "^2.7"
 Theano = "^1.0"
 pydot = "^1.4.2"
+xgboost = "^1.5.1"
 
 [tool.poetry.dev-dependencies]
 nbconvert = {extras = ["webpdf"], version = "^6.3.0"}

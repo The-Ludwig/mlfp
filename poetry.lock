@@ -1436,6 +1436,25 @@ optional = false
 python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*,>=2.7"
 
 [[package]]
+name = "xgboost"
+version = "1.5.1"
+description = "XGBoost Python Package"
+category = "main"
+optional = false
+python-versions = ">=3.6"
+
+[package.dependencies]
+numpy = "*"
+scipy = "*"
+
+[package.extras]
+dask = ["dask", "pandas", "distributed"]
+datatable = ["datatable"]
+pandas = ["pandas"]
+plotting = ["graphviz", "matplotlib"]
+scikit-learn = ["scikit-learn"]
+
+[[package]]
 name = "zipp"
 version = "3.6.0"
 description = "Backport of pathlib-compatible object wrapper for zip files"
@@ -1450,7 +1469,7 @@ testing = ["pytest (>=4.6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "pytes
 [metadata]
 lock-version = "1.1"
 python-versions = "~3.9"
-content-hash = "b909ad641ebdf1812d0e1f721322a0caec6822001d0139ddf193a202a05e16f9"
+content-hash = "c2aebc6aa894bd55cc1c217b18a39203678d78f612b857e005c66c51ac2282bb"
 
 [metadata.files]
 absl-py = [
@@ -2552,6 +2571,13 @@ wrapt = [
     {file = "wrapt-1.13.3-cp39-cp39-win32.whl", hash = "sha256:0a017a667d1f7411816e4bf214646d0ad5b1da2c1ea13dec6c162736ff25a374"},
     {file = "wrapt-1.13.3-cp39-cp39-win_amd64.whl", hash = "sha256:81bd7c90d28a4b2e1df135bfbd7c23aee3050078ca6441bead44c42483f9ebfb"},
     {file = "wrapt-1.13.3.tar.gz", hash = "sha256:1fea9cd438686e6682271d36f3481a9f3636195578bab9ca3382e2f5f01fc185"},
+]
+xgboost = [
+    {file = "xgboost-1.5.1-py3-none-macosx_10_15_x86_64.macosx_11_0_x86_64.macosx_12_0_x86_64.whl", hash = "sha256:c6a3ed369decf0ebee1c7af18fa87d632843b5dd2edaca2dd4b2c5e66034c316"},
+    {file = "xgboost-1.5.1-py3-none-manylinux2014_aarch64.whl", hash = "sha256:8668e86a2ab13bccc16bc4c295cb118771dc70d02ef82752289e5d3e7a7a5357"},
+    {file = "xgboost-1.5.1-py3-none-manylinux2014_x86_64.whl", hash = "sha256:ab50d064861aa6f27396e3879bcccc720b1bdcaff501367b7ea1325c4ab61e63"},
+    {file = "xgboost-1.5.1-py3-none-win_amd64.whl", hash = "sha256:e399dcb4ce6bb669c8cc707aaea2f3da50af9cc78f6f5019a0bb6246a433b736"},
+    {file = "xgboost-1.5.1.tar.gz", hash = "sha256:a30485a84bbecf0d6a0c648e3efee94e3ecf99134cc6408df11cdab46da995de"},
 ]
 zipp = [
     {file = "zipp-3.6.0-py3-none-any.whl", hash = "sha256:9fe5ea21568a0a70e50f273397638d39b03353731e6cbbb3fd8502a33fec40bc"},
