@@ -8,3 +8,4 @@ tutorial_sessions
 .python-version
 .venv
 .ipynb_checkpoints
+iris.data

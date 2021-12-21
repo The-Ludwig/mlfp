@@ -20,6 +20,7 @@ Theano = "^1.0"
 pydot = "^1.4.2"
 xgboost = "^1.5.1"
 interpret = "^0.2.7"
+sympy = "^1.9"
 
 [tool.poetry.dev-dependencies]
 nbconvert = {extras = ["webpdf"], version = "^6.3.0"}
